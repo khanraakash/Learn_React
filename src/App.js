@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+//UI component and things
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <div className="grey-bg">
+        <img src="https://i.dailymail.co.uk/i/pix/2015/09/01/18/2BE1E88B00000578-3218613-image-m-5_1441127035222.jpg" alt="" className="image"/>
+        <p style={{ backgroundColor:"grey",fontSize:"16px"}}>
+          <hr/>
+          <br/>
+          Hi it's a image  from Google
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        </div>
     </div>
   );
 }
 
 export default App;
+//React = JXS java + xml style
